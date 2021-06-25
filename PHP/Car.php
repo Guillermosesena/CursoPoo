@@ -7,14 +7,14 @@ class Car
     public $driver;
     public $passegers;
 
-    public function __constructor($license, $driver){
+    public function __construct($license, $driver){
         $this->license = $license;
         $this->driver = $driver;
     }
 
     public function PrintDataCar(){
-        echo "License: " + $this->license + " Name: " + $this->driver->name + " Document: " + $this->driver->document; 
-      }
+        echo "License: " . $this->license . " Name: " . $this->driver->name . " Document: " . $this->driver->document; 
+    }
 
 }
 ?>
