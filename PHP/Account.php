@@ -8,8 +8,8 @@ class Account
     public $password;
 
     public function __construct($name, $document) {
-        $this->name=name;
-        $this->document=document;
+        $this->name  = $name;
+        $this->document = $document;
     } 
 }
 ?>
