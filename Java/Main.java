@@ -1,8 +1,8 @@
 class Main{
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        //System.out.println("Hola mundo");
 
-        Car car = new Car("AMQ123", new Account("Andre Herrera", "AND123"));
+        /*Car car = new Car("AMQ123", new Account("Andre Herrera", "AND123"));
         car.passengers = 4;
         car.printDataCar();
 
@@ -11,7 +11,10 @@ class Main{
         car2.printDataCar();        
         
         UberX uberX= new UberX("RGREGR", new Account("Andre Herrera", "AND124"),"Chevrolet","Spark");
-        uberX.printDataCar();
+        uberX.printDataCar();*/
 
+        User user = new User("Juan Vazquez","DQW9821");
+        user.auth("juanvazque@gmail.com", "123");
+        user.printDataAccount();
     }
 }
